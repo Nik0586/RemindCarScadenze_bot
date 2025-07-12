@@ -7,7 +7,7 @@ import asyncio
 import os
 
 # Telegram bot token
-TELEGRAM_TOKEN = "7750047008:AAF6MpNIoxQNlsBAGfC7h9ggWraRYYwsf30"
+TELEGRAM_TOKEN = "8112774179:AAHZBS1gcZYmSP5lKgpogBRHYjuYMdtyoLM"
 CHAT_ID = "@power_1n"  # або numeric ID
 
 # Шлях до Excel-файлу
@@ -18,7 +18,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Дні, коли потрібно нагадувати
-REMINDER_DAYS = [30, 15, 7, 1]
+REMINDER_DAYS = [15, 7, 1]
 
 async def send_reminders():
     try:
